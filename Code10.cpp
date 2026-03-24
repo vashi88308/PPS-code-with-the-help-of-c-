@@ -23,7 +23,7 @@ int main () {
     cin >> English;
     
     int sum = (Maths + Chem + Phy + Bio + English);
-    float perc = sum/5;
+    float perc = sum/5.0;
 
     if ( perc >=90) {
         cout << "Grade = A";
@@ -31,7 +31,7 @@ int main () {
     else if (perc >= 80 && perc < 90) {
         cout << "Grade = B"; 
     }
-    else if (perc >=60 && perc > 80) {
+    else if (perc >=60 && perc < 80) {
         cout << "Grade = c";
     }
     else {
