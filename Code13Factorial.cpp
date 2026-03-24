@@ -15,4 +15,5 @@ int main () {
         sum=sum*i;
     }
     cout << "Factorial of a given number is = " << sum;
+    return 0;
 }
