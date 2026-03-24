@@ -17,7 +17,7 @@ int main () {
     cout << "English:\n";
     cin >> English;
     int sum = (Maths + Chem + Phy + Bio + English);
-    float avg = sum/5;
+    float avg = sum/5.0;
     cout << "\nSum of 5 subjects is :" << sum << "\naverage of 5 subjects is " << avg;
     return 0;
 }
